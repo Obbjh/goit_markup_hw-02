@@ -1,0 +1,50 @@
+
+
+.body {
+    font-family: 'Roboto';
+    color: #212121;
+}
+.page-header {
+  
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+}
+
+.logo:hover,
+.logo:focus {
+    color: #2196F3;
+}
+
+.accent {
+    color: #2196F3;
+}
+
+.site-nav {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+}
+
+.contacts-list:hover,
+.contacts-list:focus  {
+    color: #757575;
+}
+
+
+
