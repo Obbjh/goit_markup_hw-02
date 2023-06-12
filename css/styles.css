@@ -55,7 +55,6 @@ body {
 }
 
 .nav-link {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -72,11 +71,10 @@ body {
 }   
 
 .site-nav-list .nav-link.current{
-    color: var(--secondary-text-color)
+    color: var(--accent-color)
 }
 
 .contacts .contacts-link {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -175,11 +173,11 @@ button {
 /* footer */
 
 footer {
-    font-family: 'Roboto',sans-serif;
     font-style: normal;
     background-color: var(--background-color);
 }
 .adress {
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -206,7 +204,6 @@ footer {
 }
 
 .footer-link {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -225,9 +222,6 @@ footer {
 
 /* Portfolio */
 
-.examples {
-    background-color: var(--background-color-user);
-}
 .filter-button {
     font-weight: 500;
     font-size: 16px;
@@ -245,7 +239,6 @@ footer {
 }
 
 .example-title {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -255,7 +248,6 @@ footer {
 }
 
 .example-object {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
