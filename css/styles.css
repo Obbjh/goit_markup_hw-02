@@ -202,7 +202,7 @@ button {
 
 /* Works*/
 .work-list .item {
-padding top: 92;
+padding-top: 92;
 padding-bottom: 0;
 }
 
@@ -308,10 +308,22 @@ footer {
 
 /* Portfolio */
 
+.projects-examples {
+    text-align: center;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.example-list-title {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 .filter-button {
     display: inline-block;
     border-radius: 4px;
     padding: 6px 22px;
+    margin-bottom: 50px;
     text-align: center;
 
     font-weight: 500;
@@ -330,6 +342,8 @@ footer {
 }
 
 .example-title {
+    margin-top: 0;
+    margin-bottom: 4px;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -339,6 +353,8 @@ footer {
 }
 
 .example-object {
+    margin-top: 0;
+    margin-bottom: 0;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -354,4 +370,9 @@ a {
 .address-item {
     margin-top: 0;
     margin-bottom: 12px;
+}
+
+.projects-title {
+    margin-top: 0;
+    margin-bottom: 0;
 }
