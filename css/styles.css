@@ -41,10 +41,37 @@ body {
     padding-right: 15px;
 }
 
+.container-nav {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+
+.container-contacts {
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.container-main {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+}
+
+.conteiner-main-nav { 
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
 .logo {
     display: inline-block;
-    margin-top: 24px;
-    margin-bottom: 25px;
+    margin-right: 93px;
 
     font-family: 'Raleway',sans-serif;
     font-style: normal;
@@ -66,6 +93,9 @@ body {
 }
 
 .site-nav-list {
+    padding-left: 0;
+    padding-right: 0;
+    display: flex;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -75,7 +105,30 @@ body {
     color: color white;
 }
 
+.site-nav-item {
+    margin-right: 50px;
+}
+
+.site-nav-item:last-child {
+    margin-right: 354px;
+}
+
+.contacts {
+    display: flex;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    width: 337px;
+}
+
+.container-item + .container-item {
+    margin-left: 40px;
+}
+
 .nav-link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -176,7 +229,12 @@ button {
 }
 
 .features-list  {
+    display: flex;
     color: var(--primary-text-color);
+}
+
+.features-item {
+    margin-right: 30px;
 }
 
 .title {
@@ -201,9 +259,18 @@ button {
 }
 
 /* Works*/
-.work-list .item {
-padding-top: 92;
-padding-bottom: 0;
+.work-list-item {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 94px;
+}
+
+.item {
+    margin-right: 10px;
+}
+
+.item:last-child {
+    margin-right: 0px;
 }
 
 .section {
@@ -219,7 +286,22 @@ padding-bottom: 0;
 .section-team {
     margin-top: 0;
     margin-bottom: 0;
+    padding-top: 94px;
+    padding-bottom: 94px;
     background-color: var(--background-color-user)
+}
+
+.list-team {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item-team {
+    margin-right: 10px;
+}
+
+.item-team:last-child {
+    margin-right: 0px;
 }
 
 .section.no-padding {
@@ -319,12 +401,41 @@ footer {
     margin-bottom: 0;
 }
 
+.filter-list {
+    display: flex;
+    justify-content: center
+}
+
+.filter-item {
+    margin-right: 8px;
+}
+
+.filter-item:last-child {
+    margin-right: 0px;
+}
+
+.exapmle-list {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-element {
+    margin-right: 10px;
+    width: 370px;
+}
+
+.flex-element:nth-child(3n) {
+    margin-right: 0;
+}
+
 .filter-button {
     display: inline-block;
     border-radius: 4px;
     padding: 6px 22px;
     margin-bottom: 50px;
     text-align: center;
+    min-width: 67px;
 
     font-weight: 500;
     font-size: 16px;
@@ -370,6 +481,10 @@ a {
 .address-item {
     margin-top: 0;
     margin-bottom: 12px;
+}
+
+.address-item:last-child {
+    margin-bottom: 0px;
 }
 
 .projects-title {

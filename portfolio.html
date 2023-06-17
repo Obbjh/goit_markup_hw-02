@@ -19,55 +19,57 @@
     />
   </head>
 
-  <body>
+    <body>
     <header class="page-header">
-      <div class="container">
-        <nav>
-          <a href="/index.html" class="logo"
-            ><span class="accent">Web</span>Studio</a
-          >
+      <div class="container-main">
+        <div class="container-nav">
+          <nav class="conteiner-main-nav">
+            <a href="/index.html" class="logo"
+              ><span class="accent">Web</span>Studio</a
+            >
+            <ul class="site-nav-list">
+              <li class="site-nav-item">
+                <a href="./index.html" class="nav-link current">Студія</a>
+              </li>
+              <li class="site-nav-item"><a href="./portfolio.html" class="nav-link">Портфоліо</a></li>
+              <li class="site-nav-item"><a href="" class="nav-link">Контакти</a></li>
+            </ul>
+          </nav>
+        </div>
 
-          <ul class="site-nav-list">
-            <li><a href="./index.html" class="nav-link">Студія</a></li>
-            <li>
-              <a href="./portfolio.html" class="nav-link current">Портфоліо</a>
+        <!-- contacts -->
+        <div class="container-contacts">
+          <ul class="contacts">
+            <li class="container-item">
+              <a href="mailto:info@devstudio.com" class="contacts-link"
+                >info@devstudio.com</a
+              >
             </li>
-            <li><a href="" class="nav-link">Контакти</a></li>
+            <li class="container-item">
+              <a href="tel:+380961111111" class="contacts-link"
+                >+38 096 111 11 11</a
+              >
+            </li>
           </ul>
-        </nav>
-      </div>
-
-      <!-- contacts -->
-      <div class="container">
-        <ul class="contacts">
-          <li>
-            <a href="mailto:info@devstudio.com" class="contacts-link"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a href="tel:+380961111111" class="contacts-link"
-              >+38 096 111 11 11</a
-            >
-          </li>
-        </ul>
+        </div>
       </div>
     </header>
 
     <main>
       <section class="projects-examples">
         <div class="container">
-          <h1 class="projects-title">Портофоліо</h1>
-          <ul>
-            <li><button class="filter-button">Усі</button></li>
-            <li><button class="filter-button">Веб-сайти</button></li>
-            <li><button class="filter-button">Додатки</button></li>
-            <li><button class="filter-button">Дизайн</button></li>
-            <li><button class="filter-button">Маркетинг</button></li>
+          <!-- <h1 class="projects-title">Портофоліо</h1> -->
+          <ul class="filter-list">
+            <li class="filter-item"><button class="filter-button">Усі</button></li>
+            <li class="filter-item"><button class="filter-button">Веб-сайти</button></li>
+            <li class="filter-item"><button class="filter-button">Додатки</button></li>
+            <li class="filter-item"><button class="filter-button">Дизайн</button></li>
+            <li class="filter-item"><button class="filter-button">Маркетинг</button></li>
           </ul>
-          <h2 class="example-list-title">work examples</h2>
-          <ul>
-            <li>
+          <div>
+          <!-- <h2 class="example-list-title">work examples</h2> -->
+          <ul class="exapmle-list">
+            <li class="flex-element">
               <a href="">
                 <img
                   src="./images/example-image1.jpg"
@@ -79,7 +81,7 @@
                 <p class="example-object">Веб-сайт</p>
               </a>
             </li>
-            <li>
+            <li class="flex-element">
               <a href="">
                 <img
                   src="./images/example-image2.jpg"
@@ -91,7 +93,7 @@
                 <p class="example-object">Дизайн</p>
               </a>
             </li>
-            <li>
+            <li class="flex-element">
               <a href="">
                 <img
                   src="./images/example-image3.jpg"
@@ -103,7 +105,7 @@
                 <p class="example-object">Додаток</p>
               </a>
             </li>
-            <li>
+            <li class="flex-element">
               <a href="">
                 <img
                   src="./images/example-image4.jpg"
@@ -115,7 +117,7 @@
                 <p class="example-object">Маркетинг</p>
               </a>
             </li>
-            <li>
+            <li class="flex-element">
               <a href="">
                 <img
                   src="./images/example-image5.jpg"
@@ -127,7 +129,7 @@
                 <p class="example-object">Додаток</p>
               </a>
             </li>
-            <li>
+            <li class="flex-element">
               <a href="">
                 <img
                   src="./images/example-image6.jpg"
@@ -139,7 +141,7 @@
                 <p class="example-object">Веб-сайт</p>
               </a>
             </li>
-            <li>
+            <li class="flex-element">
               <a href="">
                 <img
                   src="./images/example-image7.jpg"
@@ -151,7 +153,7 @@
                 <p class="example-object">Дизайн</p>
               </a>
             </li>
-            <li>
+            <li class="flex-element">
               <a href="">
                 <img
                   src="./images/example-image8.jpg"
@@ -163,7 +165,7 @@
                 <p class="example-object">Маркетинг</p>
               </a>
             </li>
-            <li>
+            <li class="flex-element">
               <a href="">
                 <img
                   src="./images/example-image9.jpg"
